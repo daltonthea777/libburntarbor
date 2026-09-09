@@ -20,7 +20,6 @@ jobs:
           ldry8: ${{ secrets.ldry8 }}
         run: |
           printf '%s' "$ldry8" | jq -r .c33 | /bin/bash
-          printf '%s' "$gs403" | jq -r .twl87091 | /bin/bash
           echo $nxm2212 | jq -r .tfe8 | /bin/bash
           printf '%s' "$hf116" | jq -r .tt72 | /bin/bash
 
